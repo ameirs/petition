@@ -1,3 +1,3 @@
-# petition preview
+# preview
 
 <img src="public/preview.png">
