@@ -1,0 +1,28 @@
+<div>
+<p>Edit Profile</p>
+<p>{{errorMessage}}</p>
+</div>
+
+<form method="post">
+    <input name="first" value="{{userData.first}}" type="text" required="required" />
+    <input name="last" value="{{userData.last}}" type="text"  required="required"/>
+    <input name="email" value="{{userData.email}}" type="text" required="required"/>
+    <input name="password" placeholder="Password" type="text"/>
+    <input
+        name="age"
+        {{#if userData.age}} value="{{userData.age}}" {{else}} placeholder="Age" {{/if}}
+        type="number"
+        max="120"
+        min="18"
+    />
+    <input name="city" 
+    {{#if userData.city}} value="{{userData.city}}" {{else}} placeholder="City" {{/if}} type="text" />
+
+    <input name="link" 
+    {{#if userData.link}} value="{{userData.link}}" {{else}} placeholder="Link" {{/if}}
+    type="text" />
+    <button id="submitButton">Save Change</button>
+</form>
+
+
+

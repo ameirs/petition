@@ -1,0 +1,212 @@
+body {
+    margin:0;
+    background: linear-gradient(291.57deg, #d2ffb3 15.09%, #b19ffc 95.79%);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 25px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #000000;
+}
+
+#main {
+    overflow: hidden;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+ul.nav {
+    border-radius: 20px;
+    position: absolute;
+    z-index: 99999;
+    background: rgba(255, 255, 255, 0.795);
+    border: 1px solid black;
+    padding: 25px;
+    min-width: 200px;
+    max-width: 300px;
+    font-size: 25px;
+    right: 50px;
+    
+}
+
+ul.nav li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+ul.nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+input,
+#submitButton,
+#registerButton,
+#logButton, .registerButton {
+    font-size: 20px;
+    padding-left: 20px;
+    width: 50vw;
+    height: 70px;
+    border-radius: 50px;
+    margin-top: 25px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+
+#submitButton,
+#registerButton,
+#logButton, .registerButton {
+    
+    background-color: #ffffff6e;
+    width: 25vw;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+
+#logButton p, .registerButton {
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.nav form{
+    display: inline-block;
+    background-color: transparent;
+    margin-bottom: 0px;
+    
+}
+.nav button{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    padding: 0px
+;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+}
+
+canvas {
+    border: 1px dotted black;
+    border-radius: 20px;
+}
+ img {
+    height: 40%;    
+}
+
+#hedgehog-container {
+    overflow: hidden;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("hedgehoghotel.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.infobox form {
+    bottom: 30px;
+    width: 70vw;
+}
+
+#home-title {
+    position: absolute;
+    width: 90vw;
+    height: 90vh;
+    background-image: url("home-title4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: translateY(-100%);
+    transition: all 0.5s ease-in-out;
+}
+
+#overlay-container img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+#close-button {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+.box-shadow {
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+#about-container {
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100%);
+    overflow: hidden;
+}
+
+.about {
+    overflow: scroll;
+    position: absolute;
+    width: 70vw;
+    height: 55vh;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 50px;
+    line-height: 1.3em;
+    font-size: 25px;
+    padding: 50px;
+    font-weight: lighter;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(150%);
+    
+}
+
+.about h1 {
+    font-weight: normal;
+}
+
+.btn-container {
+    margin-right: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}

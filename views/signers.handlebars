@@ -1,0 +1,20 @@
+<header>
+    {{>dropdown}}
+</header>
+{{>about}} 
+<div class="list-of-signers">
+    <p>🏩 🦔</p>
+</div>
+{{#rows}}
+    <div>
+        <p>{{#if link}}
+            <a href="{{link}}"> {{first}} {{last}}</a>
+                {{else}}
+                    {{first}} {{last}}
+                {{/if}}
+            <a href="signers/{{city}}">{{city}}</a>
+        </p>
+    </div>
+{{/rows}}
+
+

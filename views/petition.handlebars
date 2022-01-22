@@ -1,0 +1,26 @@
+<header>
+    {{>dropdown}}
+</header>
+{{>about}}
+
+<div>
+    <p>sign here please 🏩 🦔</p>
+    <p>{{errorMessage}}</p>
+</div>
+
+<div id="form-container">
+    <form method="POST">
+        <canvas id="canvSignature" width="800" height="300"></canvas>
+        <canvas hidden id="blankCanvas" width="800" height="300"></canvas>
+
+        <input
+            id="inputSignature"
+            type="hidden"
+            name="signature"
+            placeholder="Signature"
+            autocomplete="off"
+        />
+
+        <button id="submitButton"> submit </button>
+
+    </form></div>

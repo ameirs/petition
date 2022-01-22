@@ -1,0 +1,26 @@
+<div>
+    <p>Please Login</p>
+    <p>{{errorMessage}}</p>
+</div>
+
+<form method="POST">
+    <input
+        type="email"
+        name="email"
+        placeholder="e-mail"
+        required="required"
+        autocomplete="off"
+    />
+
+    <input
+        type="password"
+        name="password"
+        required="required"
+        placeholder="Password"
+        autocomplete="off"
+    />
+
+    <button id="submitButton"> submit </button>
+    <a href="/register"><div class="registerButton"><p>Register</p></div></a>
+
+</form>
