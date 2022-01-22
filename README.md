@@ -1,3 +1,4 @@
-# petition
+# petition preview
 
-<img src="public/preview.png“>
+**_picture_**
+<img src="public/preview.png">
