@@ -1,3 +1,3 @@
 # petition
 
-<img src=„public/preview.png“>
+<img src="public/preview.png“>
